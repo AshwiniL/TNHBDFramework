@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tutorials Ninja Automation Test]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tutorialsninja.qa.listeners.Listerners"/>
+  </listeners>
+  <test thread-count="5" name="Tutorials Ninja Test Cases(failed)">
+    <classes>
+      <class name="com.tutorialsninja.qa.testcases.RegisterTest">
+        <methods>
+          <include name="registerWithAllFields"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.RegisterTest -->
+    </classes>
+  </test> <!-- Tutorials Ninja Test Cases(failed) -->
+</suite> <!-- Failed suite [Tutorials Ninja Automation Test] -->
